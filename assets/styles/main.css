@@ -124,7 +124,7 @@ hr {
 h3 {
 	margin: 0;
 	padding: 0;
-	background: #e8e8e8 url(images/h3.jpg) no-repeat scroll right center;
+	background: #e8e8e8 url(../images/h3.jpg) no-repeat scroll right center;
 	text-transform: uppercase;
 	font-weight: normal;
 	font-size: 11px;
@@ -166,7 +166,7 @@ h6 {
 	border-bottom: 1px solid #f0eded;
 	margin: 10px 0 0;
 	padding: 0 0 10px;
-	background: url(images/h4.jpg) no-repeat scroll left top;
+	background: url(../images/h4.jpg) no-repeat scroll left top;
 	font-size: 11px;
 	text-transform: uppercase;
 	font-weight: normal;
@@ -199,7 +199,7 @@ p.quoted {
 }
 
 #menu {
-	background: #e2e2e2 url(images/bg_menu.jpg) repeat-x scroll 0%;
+	background: #e2e2e2 url(../images/bg_menu.jpg) repeat-x scroll 0%;
 }
 #menu li {
 	border-left: 1px solid #5c5c5c;
@@ -228,5 +228,5 @@ p.quoted {
 #top {
 	margin: 0;
 	padding: 0;
-	background: #5c5c5c url(images/top.jpg) repeat-x scroll 0%;
+	background: #5c5c5c url(../images/top.jpg) repeat-x scroll 0%;
 }
