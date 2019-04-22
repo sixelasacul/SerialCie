@@ -88,9 +88,9 @@ hr {
 	margin: 20px 0;
 }
 
-#bob-pic {
-	float: left;
+.float-left-pic {
 	width: 40%;
+	float: left;
 	height: auto;
 	margin: 0 10px 10px 0;
 }
