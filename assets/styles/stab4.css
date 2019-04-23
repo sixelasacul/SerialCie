@@ -16,7 +16,7 @@
 	height: auto;
 }
 
-#interview > img {
+#interview > img, #teaser > video {
 	width: 80%;
 	height: auto;
 }
@@ -25,7 +25,7 @@
 	text-align: center;
 }
 
-img.center {
+img.center, video.center {
 	display: block;
 	margin: auto;
 }
@@ -34,11 +34,37 @@ img.center {
 	font-weight: bold;
 }
 
-.empty-star:before {
-	content: "\2606";
+#comments > hr {
+	margin: 20px auto;
+	width: 400px;
+	border: 0px;
+	border-bottom: 1px solid #000;
 }
 
-.full-star:before {
-	content: "\2605";
+.comment > dt {
+	font-weight: bold;
+}
+
+.star {
 	color: yellow;
+}
+
+.one.star:before {
+	content: "\2605\2606\2606\2606\2606";
+}
+
+.two.star:before {
+	content: "\2605\2605\2606\2606\2606";
+}
+
+.three.star:before {
+	content: "\2605\2605\2605\2606\2606";
+}
+
+.four.star:before {
+	content: "\2605\2605\2605\2605\2606";
+}
+
+.five.star:before {
+	content: "\2605\2605\2605\2605\2605";
 }
