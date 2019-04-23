@@ -9,7 +9,7 @@ function behavior() {
 	if (counter === easterEggLimit) {
 		window.alert("Bon, arrêtez maintenant.");
 	}
-	if (counter < easterEggLimit) {
+	if (counter <= easterEggLimit) {
 		counter++;
 	}
 }
