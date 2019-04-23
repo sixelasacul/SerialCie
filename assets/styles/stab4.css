@@ -1,33 +1,6 @@
-#head {
-	width: 100%;
-}
-
-#head > h2 {
-	font-size: 20px;
-}
-
-#head > p {
-	font-weight: bold;
-	font-style: italic;
-}
-
-#head > img {
-	width: 15%;
-	height: auto;
-}
-
 #interview > img, #teaser > video {
 	width: 80%;
 	height: auto;
-}
-
-.center {
-	text-align: center;
-}
-
-img.center, video.center {
-	display: block;
-	margin: auto;
 }
 
 .author {
@@ -36,7 +9,7 @@ img.center, video.center {
 
 #comments > hr {
 	margin: 20px auto;
-	width: 400px;
+	width: 50%;
 	border: 0px;
 	border-bottom: 1px solid #000;
 }

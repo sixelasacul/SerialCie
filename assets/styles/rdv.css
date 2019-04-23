@@ -1,16 +1,3 @@
-#head {
-	width: 100%;
-}
-
-#head > h2 {
-	font-size: 20px;
-}
-
-#head > p {
-	font-weight: bold;
-	font-style: italic;
-}
-
 #bio {
 	text-align: justify;
 }
@@ -32,9 +19,4 @@
 #bio > img {
 	width: 50%;
 	height: auto;
-}
-
-img.center {
-	display: block;
-	margin: auto;
 }
