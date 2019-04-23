@@ -19,7 +19,7 @@ function censorSmartphones() {
 	if (
 		detectMobileBrowser(navigator.userAgent || navigator.vendor || window.opera)
 	) {
-		window.location = "no-smartphones.html";
+		window.location = "no_smartphones.html";
 	}
 }
 
