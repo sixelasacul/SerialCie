@@ -1,9 +1,9 @@
-#head {
-	width: 100%;
+h2 {
+	font-size: 20px;
 }
 
-#head > h2 {
-	font-size: 20px;
+#head {
+	width: 100%;
 }
 
 #head > p {
